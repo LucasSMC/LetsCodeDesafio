@@ -11,12 +11,20 @@ Seguem instruções:
 
 Ler os arquivos da pasta (csv)
 Converter em objetos Java Pagamentos
+
   { 
+  
       clienteNome : String
+      
       dataVencimento : LocalDate
+      
       valor : Double
+      
       classificacao : Integer
+      
+      
   )
+  
 Realizar o processamento dos pagamentos conforme as seguintes regras:
 
 Caso a data de pagamento esteja em atraso:
